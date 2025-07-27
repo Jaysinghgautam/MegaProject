@@ -1,15 +1,7 @@
 import conf from '../conf/conf.js';
 import { Client, Account, ID } from "appwrite";
 
-
-fetch("https://fra.cloud.appwrite.io/v1/signup", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ name, email, password })
-});
-
-
-
+ 
 export class AuthService {
     client = new Client();
     account;
